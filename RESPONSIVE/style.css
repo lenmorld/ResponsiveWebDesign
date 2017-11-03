@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  width: 960px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.item {
+  display: inline-block;
+  background-color: #ccc;
+  margin: 1%;
+  height: 50px;
+  width: 30%;
+}
+
+.shrink {
+
+}
+
+.row {
+  min-width: 150px;
+}
+
+
+/*device screen (viewport) is between 640 and 960*/
+/*@media (max-width: 960px) and (min-width: 640) {
+
+}*/
+
+/*if page is to be printed*/
+/*@@media print {
+  body {
+    background: none;
+  }
+}*/
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: auto;
+  }
+
+  .column {
+    float: none;
+    width: auto;
+  }
+}
+
+
+
+
+/*#rcorners1 {
+  border-radius: 25px;
+  border: 2px solid green;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}*/
