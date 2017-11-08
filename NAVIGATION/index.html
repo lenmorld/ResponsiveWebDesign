@@ -20,6 +20,8 @@
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+      <div id="handle">Menu</div>
+
     </nav>
 
     <section>
@@ -29,6 +31,15 @@
       Halvah muffin liquorice pastry muffin dessert brownie. Toffee icing halvah jelly-o soufflé tart. Cake macaroon cotton candy carrot cake. Lollipop jelly-o liquorice. Gingerbread chocolate bar cookie sweet danish liquorice chupa chups halvah. Marzipan wafer pie lollipop. Icing ice cream biscuit. Bear claw pudding wafer apple pie. Cake gummi bears halvah oat cake biscuit. Gummies danish caramels powder icing donut chocolate bar. Cake icing danish cake croissant carrot cake pastry tart. Powder candy canes gummi bears candy brownie jelly beans brownie chocolate.
       Dragée marshmallow pudding macaroon apple pie cake croissant sugar plum biscuit. Cotton candy chupa chups wafer. Caramels apple pie lollipop bonbon wafer pie liquorice wafer. Cake dragée cheesecake lemon drops jelly beans. Pastry chocolate cake carrot cake apple pie topping lemon drops. Fruitcake gummi bears pie. Tart biscuit donut cake donut marshmallow candy canes caramels tootsie roll. Cheesecake oat cake soufflé chocolate liquorice chocolate. Pudding cheesecake cookie caramels. Caramels dragée marzipan carrot cake jelly tiramisu lemon drops marshmallow. Ice cream fruitcake bear claw. Caramels chupa chups pastry. Gummi bears cake pastry halvah cake apple pie brownie. Chocolate bar toffee jelly-o.
     </section>
+
+    <script>
+      function classToggle() {
+        console.log("haha");
+        var menu  = document.querySelector("nav ul");
+        menu.classList.toggle('showing');
+      }
+      document.querySelector("#handle").addEventListener("click", classToggle);
+    </script>
 
   </body>
 </html>
